@@ -1,0 +1,48 @@
+ Criação de Pop-up Flutuante Expansível (Chatbot & WhatsApp)
+1. OBJETIVO GERAL:
+Criar um elemento de interface de usuário (UI) moderno e discreto: um ícone flutuante fixo que, ao ser clicado, expande para revelar opções de contato rápido (Chatbot AI e WhatsApp) e permite ser fechado facilmente.
+2. POSICIONAMENTO E ESTADO INICIAL:
+Posicionamento: O elemento deve ficar fixo em uma posição na tela, independentemente da rolagem da página. Posição padrão sugerida: canto inferior direito.
+Estado Inicial: Apenas um único ícone visível (o "Ícone Gatilho"). Este ícone deve ser visualmente claro e convidativo à interação.
+3. COMPORTAMENTO E INTERAÇÃO:
+Gatilho de Expansão: Clicar no "Ícone Gatilho" inicial.
+Animação de Expansão: O ícone deve se transformar ou um container deve emergir dele de forma suave e animada (ex: expansão vertical para cima, duração de ~0.3 segundos) para revelar as opções.
+Estado Expandido:
+Exibe um pequeno container vertical (ou radial, mas vertical é mais comum e talvez mais simples).
+Dentro do container, mostra claramente:
+Um ícone para o Chatbot AI.
+Um ícone para o WhatsApp.
+Um ícone de Fechar ('X').
+Os ícones de opção (Chatbot, WhatsApp) devem estar claramente separados e identificáveis.
+Ação Ícone Chatbot: Ao clicar neste ícone, deve haver uma ação para iniciar a interface do Chatbot AI. (Para a IA: Gere um placeholder de função JavaScript launchAIChatbot() ou adicione um atributo onclick que chame essa função).
+Ação Ícone WhatsApp: Ao clicar neste ícone, o usuário deve ser redirecionado para o WhatsApp com uma mensagem pré-definida. Use um link no formato: https://wa.me/SEU_NUMERO_AQUI?text=SUA_MENSAGEM_AQUI. (Para a IA: Use um link <a> envolvendo o ícone com um href placeholder nesse formato e target="_blank").
+Ação Ícone Fechar ('X'): Ao clicar neste ícone, o container expandido deve recolher suavemente, retornando ao estado inicial (apenas o "Ícone Gatilho" visível), usando uma animação reversa à de expansão.
+4. DESIGN VISUAL E ESTILO (Moderno):
+Estilo Geral: Minimalista, limpo, moderno. Use cantos arredondados para o container e talvez para o ícone inicial. Use sombras sutis (box-shadow) para dar profundidade e destacar o elemento da página.
+Ícone Gatilho Inicial:
+Sugestão 1: Ícone de balão de chat moderno.
+Sugestão 2: Ícone de "mais" (+) ou multi-pontos (...) que indica mais opções.
+Deve ter um tamanho razoável (ex: 50px-60px de diâmetro).
+Cor de fundo sólida (usar a cor de destaque da paleta do site principal, se definida) ou um gradiente sutil.
+Ícone interno em cor contrastante (geralmente branco ou preto).
+Hover Effect: Leve aumento de tamanho ou mudança de sombra ao passar o mouse.
+Container Expandido:
+Fundo ligeiramente diferente do ícone gatilho ou com uma leve transparência para se integrar ao site.
+Padding interno para espaçar os ícones.
+Ícones de Opção (Chatbot, WhatsApp):
+Usar ícones universalmente reconhecidos (SVG ou de bibliotecas como Font Awesome, Material Icons). Ícone de robô/cérebro para Chatbot, ícone oficial do WhatsApp.
+Tamanho consistente entre eles, um pouco menores que o ícone gatilho.
+Hover Effect: Mudança sutil de cor ou fundo ao passar o mouse sobre cada opção.
+Tooltips (Opcional): Ao passar o mouse, mostrar um pequeno texto ("Falar com IA", "WhatsApp").
+Ícone de Fechar ('X'):
+Posicionado no topo ou canto do container expandido.
+Claro, mas discreto.
+5. CONTEÚDO (Placeholders a serem preenchidos posteriormente):
+Número de WhatsApp: SEU_NUMERO_AQUI (Incluir código do país, ex: 55 para Brasil + DDD + número).
+Mensagem Pré-definida WhatsApp: SUA_MENSAGEM_AQUI (Ex: "Olá! Tenho uma dúvida e gostaria de falar sobre o trabalho de Jesus Alves Amazonas.")
+6. TECNOLOGIA (Se a IA gerar código):
+HTML: Use estrutura semântica (ex: <button> para os gatilhos, <div> para containers, <a> para o link do WhatsApp).
+CSS: Use CSS moderno para estilização, layout (Flexbox é ideal para alinhar os ícones verticalmente), animações/transições suaves, e posicionamento (position: fixed).
+JavaScript: Necessário para manipular os eventos de clique (expandir/recolher) e possivelmente para acionar o chatbot. Use manipulação de classes CSS para alternar entre os estados visuais (inicial e expandido).
+Instrução Final para a IA:
+"Gere o código HTML, CSS e JavaScript necessário para implementar este pop-up de ícone expansível com as funcionalidades de Chatbot e WhatsApp, seguindo as diretrizes de comportamento e design moderno especificadas. Inclua os placeholders indicados para o número de WhatsApp e a mensagem pré-definida. Certifique-se de que as animações sejam suaves e o elemento seja responsivo."

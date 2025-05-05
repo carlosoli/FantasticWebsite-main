@@ -1,0 +1,39 @@
+1. Propósito Principal:
+Criar um website moderno, profissional e visualmente impactante que funcione como um portal de notícias centralizado para a figura pública Jesus Alves Amazonas. O objetivo é combinar cobertura de notícias oficiais com a presença autêntica dele nas redes sociais, transmitindo confiança, transparência e dinamismo. Inspiração de estrutura: BBC News, mas com design mais moderno e focado em multimídia.
+2. Identidade Visual e Estilo:
+Estilo: Moderno, limpo, impactante, profissional, confiável.
+Layout: Organizado, com bom uso de espaço em branco (respiro).
+Cores: Use uma paleta profissional. Sugestão: Azul sóbrio como primário, cinza escuro para texto, fundo branco/cinza claro, e uma cor vibrante (amarelo ou verde, se alinhado à identidade) para destaques/botões.
+Tipografia: Moderna e legível. Use uma fonte sans-serif clara para textos longos e uma fonte mais marcante (bold/display) para títulos e manchetes.
+Multimídia: Priorize o uso de fotos e vídeos de alta qualidade em todo o site.
+3. Conteúdo e Seções Essenciais:
+O site deve ter as seguintes seções principais, com navegação clara no topo:
+Homepage (Página Inicial): O ponto central, agregando informações chave.
+Notícias/Atividades: Onde ficam as notícias e artigos oficiais.
+Redes Sociais: Um hub para a presença online dele.
+Entrevistas: Uma seção dedicada e destacada para compilar entrevistas.
+Galeria: Para fotos e vídeos de eventos.
+Sobre: Biografia e informações de contato.
+4. Detalhes da Homepage:
+Topo (Hero Section): Uma imagem grande e de alta qualidade de Jesus Alves Amazonas ou um vídeo curto, com a manchete mais importante ou um slogan.
+Feed Principal: Uma mistura das últimas notícias do site e posts selecionados e relevantes do Instagram (@jesusalvesamazonas), Facebook (facebook.com/jesus.alves.754) e Twitter. Indique claramente a origem de cada item (ícone/etiqueta).
+Destaques Sociais: Uma área mostrando visualmente os posts mais recentes ou engajadores do Instagram e Facebook.
+Destaque Entrevistas: Links/previews visuais para 2-3 entrevistas recentes importantes.
+5. Detalhes da Seção "Notícias/Atividades":
+Layout de portal de notícias padrão.
+Listagem cronológica com título, data, resumo e imagem.
+Página individual da notícia com texto completo, imagem/vídeo de destaque.
+Possibilidade de categorizar as notícias (crie categorias genéricas como "Política", "Comunidade", "Opinião" se não especificadas).
+6. Detalhes do Hub "Redes Sociais":
+Instagram (@jesusalvesamazonas): Exiba uma grade visual com as últimas fotos/vídeos.
+Facebook (facebook.com/jesus.alves.754): Exiba os últimos posts públicos.
+Twitter & Entrevistas: Foco Principal: Crie uma área que mostre tweets curados/selecionados que mencionem ou linkem para entrevistas de Jesus Alves Amazonas. Esta é uma seção chave. (Opcional: abaixo ou ao lado, mostre o feed geral do Twitter).
+7. Detalhes da Seção "Entrevistas":
+Crie uma página que liste todas as entrevistas importantes (vídeos, áudios, links para matérias). Organize por data, incluindo o veículo de comunicação.
+8. Requisitos Técnicos:
+O site DEVE ser totalmente responsivo (mobile-first).
+Otimize para carregamento rápido.
+Garanta uma navegação fácil e intuitiva.
+Use HTML5 semântico e CSS3 moderno (se gerar código).
+Ação Solicitada:
+Gere a estrutura completa deste website, incluindo o layout das páginas descritas, estilos visuais básicos (cores, fontes) e placeholders para o conteúdo específico (textos, imagens, vídeos, feeds sociais).
